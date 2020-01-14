@@ -5,12 +5,12 @@ import java.lang.IllegalArgumentException;
 
 public enum SwingMetric {
 	
-	POWER_BAT_AVERAGE("powerBatAvg", "Applied Swing Power")
-	,POWER_BAT_ACCEL_MAX("powerBatAccelMax", "Maximum Acceleration")
-	,POWER_BAT_MOMENTUM("powerBatMomentumImpact", "Impact Momentum")
-	,SPEED_HANDS_MAX("speedHandsMax", "Maximum Hand Speed")
-	,SPEED_BAT_BARREL_MAX("speedBatBarrelMax", "Maximum Barrel Speed")
-	,SPEED_IMPACT_EFFICIENCY("speedBatTimeImpact", "Speed Efficiency");
+	APPLIED_SWING_POWER("metricAppliedSwingPower", "Applied Swing Power")
+	,MAX_ACCELERATION("metricMaxAcceleration", "Maximum Acceleration")
+	,IMPACT_MOMENTUM("metricImpactMomentum", "Impact Momentum")
+	,MAX_HAND_SPEED("metricMaxHandSpeed", "Maximum Hand Speed")
+	,MAX_BARREL_SPEED("metricMaxBarrelSpeed", "Maximum Barrel Speed")
+	,SPEED_EFFICIENCY("metricSpeedEfficiency", "Speed Efficiency");
 	
 	private String field;
 	private String name;

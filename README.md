@@ -19,14 +19,14 @@ models that will need to be utilized when implemented logic around Leaderboard f
 
 These models are already in the project under the package `com.diamondkinetics.codingchallenge.leaderboard.model`,
 please use them in your implementation. Blank LeaderboardConfig and LeaderboardResult model classes have been provided
-in the package as well. The properties in the Swing model that begin with power and speed are metrics
+in the package as well. The properties in the Swing model that begin with `metric` are swing metrics
 that are derived from our sensor data, an Enum for human readable names has been provided at
 `com.diamondkinetics.codingchallenge.leaderboard.model.enums.SwingMetric`.
 
 ## Instructions
 
 Given the above, add any properties and methods to the LeaderboardConfig and LeaderboardResult model classes that you
-think would allow for the creation and display of Leaderboards within the conext of a Group. Add any other necessary
+think would allow for the creation and display of Leaderboards within the context of a Group. Add any other necessary
 classes (service classes, helper classes, database/data access classes, etc) and their business logic you may need
 to use in order to facilitate creating Leaderbards and displaying their results. Include any unit tests you feel may be
 necessary as well.
